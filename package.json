@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "postinstall": "tsc",
+    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "reocupaal@ucvvirtual.edu.pe",
@@ -12,6 +14,7 @@
   "dependencies": {
     "@google-cloud/local-auth": "^2.1.0",
     "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
     "express": "^4.21.0",
     "googleapis": "^105.0.0"
   }
