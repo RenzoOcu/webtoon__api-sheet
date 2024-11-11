@@ -6,7 +6,7 @@
   "main": "api/index.js",  
   "scripts": {
     "start": "node ./api/index.js",    
-    "postinstall": "tsc",
+    "postinstall": "echo",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "reocupaal@ucvvirtual.edu.pe",
